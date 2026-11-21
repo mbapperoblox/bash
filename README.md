@@ -8,5 +8,5 @@ It detects the operating system, checks that python3 and pip are installed, inst
 Usage : 
 
 chmod +x env_install.sh
-./env_install.sh	
 
+./env_install.sh	
