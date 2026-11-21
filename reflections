@@ -1,0 +1,14 @@
+Why is version control useful? Because it keeps a complete history of a project, so any change can be traced or undone. It also lets several people work on the same code without overwriting each other, and it records who changed what and why.
+
+What is the difference between staging and committing? Staging selects which changes go into the next commit. Commit saves that selection permanently in the history with a message.
+
+When should you make a commit? Everytime I made a logical change. It is better to commit very often so that you can efficienly track yous changes, and if there is a bug, you would know where it came from. Committing after each meaningful step means you can roll back to a working state if something breaks.
+
+What is the difference between git init and git clone? git init creates a brand-new empty repository in an existing folder, with no history and no remote. git clone copies an existing repository from a server, brins all its files and branches and full commit history, and automatically sets it as origin.
+
+Why should you write good commit messages? To make the history more readable, and to better track all the changes you made.
+
+What is the purpose of using branches? You can work on a feature without disturbing the stable code; commits on the branch are invisible to main until you commit. It also lets severla people work on the same work in parallel, on the same repo.
+
+When would you create a new branch instead of working on main? Whenever you are not sure if the work might break down, you should create a new branch. Main should always stay in a working state, since it's what others clone and what gets deployed. You make your changes on a branch, and then merge it into the main. (at the end, you will delete the branch)
+
